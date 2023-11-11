@@ -1,0 +1,27 @@
+<Table className="mt-6 w-full border text-center custom-table">
+  <thead>
+    <tr>
+      <th className="w-[7%] border ">#</th>
+      <th className="w-[33%] border">Book Title</th>
+      <th className="w-[20%] border">Book Author</th>
+      <th className="w-[20%] border">Status</th>
+      <th className="w-[20%]  border ">Action</th>
+    </tr>
+  </thead>
+  <tbody className="custom-tbody">
+    <tr>
+      <td className="border">1</td>
+      <td className="border">Programming</td>
+      <td className="border">YV Chauhan</td>
+      <td className="border">N/A</td>
+      <td className="border">
+        <button className="bg-gray-500 rounded-[3px] px-1 mx-[5px]">
+          Edit
+        </button>
+        <button className=" bg-red-600 rounded-[3px] px-1 mr-[5px]">
+          Delete
+        </button>
+      </td>
+    </tr>
+  </tbody>
+</Table>
